@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="images/icon.png"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--CDN link to bootstrap CSS -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/mdb.css"><!--used for carousel-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--allows for importing of fontawesome icons -->
+    <link rel="stylesheet" type="text/css" href="css/pizzeria.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pizzeria.js"></script>
+    <title>Mission:Impizzable</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <p>Mission:Impizzable</p>
+                <ul class="nav-items">
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#orders">Order</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h1>Mission:Impizzable</h1>
+                <h4>To Impizzable, or not to Impizzable!</h4>
+            </div>
+        </div>
+        <br>
+        <div id="aboutus">
+            <h3><b>About Us</b></h3>
+            <p>Mission:Impizzable is a personal business founded by our owner, Tom Luther, who after coming from Italy, decided to start this business as an April Fool's Joke, against the wishes of several Italians. Due to this, the kitchen staff are referred to as 'Impizzanators'. The pizzas offered are crafted to the customer's liking, since the menu only serves as a selection of presets. For regular customers, their custom-made pizzas are saved as 'Impizzanations', which can only be ordered by said regular customer. Welcome to try our special, the Mona Pizza, said to be first made by Da Vinci himself. </p>
+            <p>Mission:Impizzable HQ is in Buruburu, 500 Metres east of Tuskys Eastlands, opposite Just Meno. Delivery services are available, and if the pizza arrives late, we offer in on the house as an apology.</p>
+        </div>
+        <br>
+        <hr width="30%" color="#FE5A07" border-color="#FE5A07">
+        <div id="menu">
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                <h3><b>Impizzanation Presets</b></h3>
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                    <li data-target="#multi-item-example" data-slide-to="3"></li>
+                    <li data-target="#multi-item-example" data-slide-to="4"></li>
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First slide-->
+                    <div class="carousel-item active">
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card0">
+                                <img src="images/bbqbeef.jpg" class="card-img-top" alt="bbqbeef" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Pie Hard</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.850  <b style="color: #FE5A07;">Huge:</b>Ksh.1000</small><br>
+                                    <p class="card-text">Red Sauce, Blended Beef, Near-ripe pepper, Thin and Thicc cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card1">
+                                <img src="images/bbqc.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Weirdough</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.850   <b style="color: #FE5A07;">Huge:</b>Ksh.1000</small><br>
+                                    <p class="card-text">Brown Sauce, Roughed-Up Chicken, White Cheese, Unripe Chilli, and Pink Onions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card" id="card2">
+                                <img src="images/bbqpork.jpg" class="card-img-top" alt="bbqpork" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Aficionadough</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.850   <b style="color: #FE5A07;">Huge:</b>Ksh.1000</small><br>
+                                    <p class="card-text">Brown Sauce, Anorexic Pork, White & Thicc Cheese,Unripe Chilli,Pink Onion.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.First slide-->
+
+                    <!--Second slide-->
+                    <div class="carousel-item">
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card3">
+                                <img src="images/chickentikka.jpg" class="card-img-top" alt="chicken-tikka" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Adoughration</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.350   <b style="color: #FE5A07;">Average:</b>Ksh.650   <b style="color: #FE5A07;">Huge:</b>Ksh.950</small><br>
+                                    <p class="card-text">Thicc Chicken, Oil, Yoghurt, Thicc Cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card4">
+                                <img src="images/gamberi1.jpg" class="card-img-top" alt="gamberi" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Incrustice</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.750   <b style="color: #FE5A07;">Huge:</b>Ksh.1100</small><br>
+                                    <p class="card-text">Garlic, Thicc Cheese, Burned Olives, Overripe Pepper. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card5">
+                                <img src="images/grilledpork.jpg" class="card-img-top" alt="grilledpork" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Crustody</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.450   <b style="color: #FE5A07;">Average:</b>Ksh.700   <b style="color: #FE5A07;">Huge:</b>Ksh.950</small><br>
+                                    <p class="card-text">Anorexic Pork, Dark-Red Sauce, Dark Yellow Cheese and Light Green Cabbage. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.Second slide-->
+
+                    <!--Third slide-->
+                    <div class="carousel-item">
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card6">
+                                <img src="images/hawaiian.jpg" class="card-img-top" alt="hawaiian" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Italian Repellant</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.350   <b style="color: #FE5A07;">Average:</b>Ksh.550   <b style="color: #FE5A07;">Huge:</b>Ksh.850</small><br>
+                                    <p class="card-text">Red Sauce, Thicc Cheese, Pineapple.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card7">
+                                <img src="images/margharita.jpg" class="card-img-top" alt="margharita" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Margarita</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.450   <b style="color: #FE5A07;">Average:</b>Ksh.700   <b style="color: #FE5A07;">Huge:</b>Ksh.950</small><br>
+                                    <p class="card-text">Oil, Garlic, Red Fruit, Thicc Cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card8">
+                                <img src="images/marinara.jpg" class="card-img-top" alt="marinara" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Marinara</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.450   <b style="color: #FE5A07;">Average:</b>Ksh.700   <b style="color: #FE5A07;">Huge:</b>Ksh.950</small><br>
+                                    <p class="card-text">Burned Pepper, Oil, Red Paste, Cream Onion. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.Third slide-->
+
+                    <!--Fourth slide-->
+                    <div class="carousel-item">
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card9">
+                                <img src="images/mushroom.jpg" class="card-img-top" alt="mushroom" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Magic Mushroom</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.950   <b style="color: #FE5A07;">Huge:</b>Ksh.1100</small><br>
+                                    <p class="card-text">Mushrooms, White Cheese, Hives.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card10">
+                                <img src="images/veggie.jpg" class="card-img-top" alt="veggie" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Vegan</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.750   <b style="color: #FE5A07;">Huge:</b>Ksh.1100</small><br>
+                                    <p class="card-text">Yellow Sauce, Corn, Unripe Peppers, Magic Mushrooms, Thicc Cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card11">
+                                <img src="images/oyster.jpg" class="card-img-top" alt="oyster" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Cheesus Crust</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.850   <b style="color: #FE5A07;">Huge:</b>Ksh.1000</small><br>
+                                    <p class="card-text">Oysters, White Onions, Red Cheese, Black-Purple Sauce. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.Fourth slide-->
+
+                    <!--Fifth slide-->
+                    <div class="carousel-item">
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card12">
+                                <img src="images/pepperoni.jpg" class="card-img-top" alt="pepperoni" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Pepperoni</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.450   <b style="color: #FE5A07;">Average:</b>Ksh.700   <b style="color: #FE5A07;">Huge:</b>Ksh.950</small><br>
+                                    <p class="card-text">Red Sauce, Bee Juice, Yellow Sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card13">
+                                <img src="images/pulledpork.jpg" class="card-img-top" alt="pulledpork" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Mona Pizza</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.400   <b style="color: #FE5A07;">Average:</b>Ksh.750   <b style="color: #FE5A07;">Huge:</b>Ksh.900</small><br>
+                                    <p class="card-text">Anorexic Pork, Thicc Cheese, Brown Sauce, Dark Red Fruit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card md-2" id="card14">
+                                <img src="images/spicyveg.jpg" class="card-img-top" alt="spicyveg" style="height: 16rem;">
+                                <div class="card-body" style="height: 11rem;">
+                                    <h5 class="card-title">Latin Vegan</h5>
+                                    <small><b style="color: #FE5A07;">Tiny:</b>Ksh.500   <b style="color: #FE5A07;">Average:</b>Ksh.750   <b style="color: #FE5A07;">Huge:</b>Ksh.1100</small><br>
+                                    <p class="card-text">Oil, Yellow Onion, Unripe Chilli, Red Spicy Fruit, Big Leaves, Fit Cheese, Black Pepper, Thicc Cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.Fourth slide-->
+
+                </div>
+                <!--/.Slides-->
+
+            </div>
+            <!--/.Carousel Wrapper-->
+        </div>
+        <br>
+        <hr width="30%" color="#FE5A07" border-color="#FE5A07">
+        <div id="ordersection">
+            <h3><b>Summon Impizzanation:</b></h3>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="jumbotron">
+                        <form id="orders">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name..." pattern="[a-zA-Z ]+" required>
+                            </div>
+                            <h5>Create Impizzanation:</h5>
+                            <div class="form-group">
+                                <label for="pizza-flavor">Taste:</label>
+                                <select class="form-control" id="pizza-flavor" required>
+                                    <option>Pie Hard</option>
+                                    <option>Weirdough</option>
+                                    <option>Aficionadough</option>
+                                    <option>Adoughration</option>
+                                    <option>Incrustice</option>
+                                    <option>Crustody</option>
+                                    <option>Italian Repellant</option>
+                                    <option>Margarita</option>
+                                    <option>Marinara</option>
+                                    <option>Magic Mushroom</option>
+                                    <option>Vegan</option>
+                                    <option>Cheesus Crust</option>
+                                    <option>Pepperoni</option>
+                                    <option>Mona Pizza</option>
+                                    <option>Latin Vegan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="pizza-size">Size</label>
+                                <select class="form-control" id="pizza-size" required>
+                                    <option>Tiny</option>
+                                    <option>Average</option>
+                                    <option>Huge</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="pizza-crust">Crust</label>
+                                <select class="form-control" id="pizza-crust" required>
+                                    <option>Zero Gluten</option>
+                                    <option>Handmade</option>
+                                    <option>Regular</option>
+                                    <option>Pancrustial</option>
+                                    <option>Obese</option>
+                                    <option>Anorexic</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="pizza-toppings">Impizzanation Tools</label>
+                                <small id="pizza-toppings-help" class="form-text text-muted">Maximum of 3</small>
+                                <small class="form-text text-muted"><b>Tiny:</b>Ksh.70 <b>Average:</b>Ksh.100 <b>Huge:</b>Ksh.130</small>
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-5">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Bacon" id="bacon">
+                                            <label class="form-check-label" for="bacon">Bacon</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Cheddar cheese" id="cheddar-cheese">
+                                            <label class="form-check-label" for="cheddar-cheese">Dark Yellow Cheese</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Ham" id="ham">
+                                            <label class="form-check-label" for="ham">Ham</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Mozarella cheese" id="mozarella-cheese">
+                                            <label class="form-check-label" for="mozarella-cheese">Anorexic Cheese</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Mushrooms" id="mushrooms">
+                                            <label class="form-check-label" for="mushrooms">Magic Mushroom</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Olives" id="olives">
+                                            <label class="form-check-label" for="olives">Burned Rings</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Onions" id="onions">
+                                            <label class="form-check-label" for="onions">Onions</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Parmesan cheese" id="parmesan-cheese">
+                                            <label class="form-check-label" for="parmesan-cheese">Yellow Cheese</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Pepperoni" id="pepperoni">
+                                            <label class="form-check-label" for="pepperoni">Pepperoni</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="toppings" value="Sausage" id="sausage">
+                                            <label class="form-check-label" for="sausage">Frankfurter</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pizza-number">Amount Of Impizzanations:</label>
+                                <select class="form-control" id="pizza-number" required>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <button type="submit" name="submitButton" class="btn submit" id="placeorder">Summon Impizzanation</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+        <div id="yourorder">
+            <br>
+            <hr width="30%" color="#FE5A07" border-color="#FE5A07">
+            <h3 class="salutation"><b>Your Summon:</b></h3>
+            <div id="orderDetails">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <table class="table table-sm" id="orderTable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Taste</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Size</th>
+                                    <th scope="col">Crust</th>
+                                    <th scope="col">Extra Toppings</th>
+                                    <th scope="col">Grand Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ordersmade">
+                                <tr>
+                                    <td class="pizza-flavor"></td>
+                                    <td class="number"></td>
+                                    <td class="pizza-size"></td>
+                                    <td class="pizza-crust"></td>
+                                    <td class="toppings"></td>
+                                    <td class="pizzaTotal1"td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="grandtot"td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <a href="#ordersection" type="submit" name="addorder" onclick="addOrder()" class="btn  submit" id="addorder">Add Summon</a>
+                        <button type="submit" name="checkout" onclick="deliveryOptions()" class="btn submit" id="checkout">Checkout</button>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+            <div id="deliveryOptions">
+                <i class="fa fa-clock-o" style="font-size:100px;color:#FE5A07"></i>
+                <br>
+                <br>
+                <p>Wait 30 Minutes. Just Do It. (Not sponsored by Nike).</p>
+                <p>Do You Want To:</p>
+                <button type="submit" name="pickup" onclick="pickUp()" class="btn"><i class="fas fa-store"></i> Take It</button>
+                <button type="submit" name="deliver" onclick="deliver()" class="btn submit"><i class="fas fa-truck"></i> Summon It</button>
+            </div>
+        </div>
+        <div id="delivery">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="jumbotron">
+                        <form id="deliveryDetails">
+                            <h5>Fill In For Summoning:</h5>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="location">Summon Location:</label>
+                                    <input type="text" class="form-control" id="location" placeholder="Street, County" pattern="[a-zA-Z0-9]+" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+254 123 456789" pattern="[+254]{4} [0-9]{3} [0-9]{6}" required>
+                                <br>
+                                <br>
+                                <small>Format: +254 123 456789</small>
+                                <br>
+                                <br>
+                            </div>
+                            <button type="submit" class="btn submit" id="delivery-details">Summon</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+        <div id="pickUpConfirmation">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="jumbotron">
+                        <i class="fas fa-check-circle" style="font-size:80px;color:green;"></i>
+                        <br>
+                        <br>
+                        <p><div class="name"></div>, Your Summon Has Successfully Been Performed!<br><br>Total Amount Required Is Ksh.<div class="totalPick"></div>.</p>
+                        <a href="#header" type="button" class="btn" onclick="reloadPage()" id="got-it" style="background-color:green">Alright!</a>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+        <div id="deliveryConfirmation">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="jumbotron">
+                        <i class="fas fa-check-circle" style="font-size:80px;color:green;"></i>
+                        <br>
+                        <br>
+                        <p>
+                            <div class="name"></div>, Your Summon Has Successfully Been Performed!
+                            <br>
+                            <br>The Summoning Fee To
+                            <div class="location"></div> is Ksh.200.
+                            <br>
+                            <br>Total Amount Required By Impizzanator On Successful Summoning is
+                            <div class="totalDel"></div>.
+                            <br>
+                            <br>In Case Your Summon Has Been Altered, We Shall Contact You On:
+                            <div class="phone"></div>.</p>
+                        <a href="#header" type="button" class="btn" onclick="reloadPage()" id="got-it" style="background-color:green">Alright!</a>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+        <div id="contactus">
+            <h3><b>Contact us</b></h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>E-mail:</h5>
+                    <p>missionimpizzable69@gmail.com</p>
+                    <h5>Call:</h5>
+                    <p>+254 694206942</p>
+                    <h5>Hours:</h5>
+                    <p>Mon-Sat: 1100-2200 hrs</p>
+                    <p>Sundays & Public Holidays: Closed</p>
+                </div>
+                <div class="col-md-8">
+                    <p>We Value You As An Impizzanator! Tell Us Of Your Experience! :</p>
+                    <form id="messageForm">
+                        <div class="form-group textarea">
+                            <textarea type="text" name="message" id="message" class="form-control" rows="8" placeholder="Your message here..." required></textarea>
+                            <button type="submit" class="btn" onclick="clearTextarea()">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="socials">
+                <span><i class="fab fa-facebook icon_facebook" style="font-size:30px" ></i></span>
+                <span><i class="fab fa-twitter" style="font-size:30px"></i></span>
+                <span><i class="fab fa-instagram icon_instagram" style="font-size:30px"></i></span>
+            </div>
+        </div>
+    </div>
+</body>
